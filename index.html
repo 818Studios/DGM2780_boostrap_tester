@@ -14,34 +14,36 @@
 
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand h1 col-4 col-lg-6" href="#"><i class="fas fa-book fa-lg"></i> Cozy Corner Bookstore</a>
+        <a class="navbar-brand h1 col-4" href="#"><i class="fas fa-book fa-lg"></i> Cozy Corner Bookstore</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto col-lg-8">
+            <li class="nav-item">
+                <a class="nav-link h5  home" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link h5 shop" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link h5 author" href="#">Author's Corner</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link h5 cafe" href="#">Caf&eacute;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link h5 about" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link h5 signIn" href="#">Sign In</a>
+            </li>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto col-lg-6">
-                <li class="nav-item active">
-                    <a class="nav-link h5" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link h5" href="#">Author's Corner</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link h5" href="#">Caf&eacute;</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link h5" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link h5" href="#">Sign In</a>
-                </li>
+        </ul>
 
-            </ul>
-
-        </div>
-    </nav>
-
+    </div>
+</nav>
+<div class="Home">
     <div class="container-fluid bg-info">
         <div class="row">
             <div class="jumbotron col-12">
@@ -71,52 +73,54 @@
             </div>    
             <div id="carouselExampleIndicators" class="carousel slide col-12 col-lg-10" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                             <!-- Photo by Aung Soe Min on Unsplash -->
                         <img src="images/valentines_day.jpg" class="d-block w-100" alt="Book with pages bent in the shape of a heart.">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5>Valentine's Day Special</h5>
+                            <p>Find the right book for your special someone!</p>
                         </div>  
                     </div>
                     <div class="carousel-item">
                             <!-- Photo by Ben White on Unsplash -->
                         <img src="images/book_tour.jpg" class="d-block w-100" alt="Man reading book on chair outside in tall grass.">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5>Book Tour - Genoa</h5>
+                            <p>Visit Scott James' forest cabin, from best-seller: Live Fire, in Genoa!</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                             <!-- Photo by Austin Distel on Unsplash -->
                         <img src="images/meet_the_author.jpg" class="d-block w-100" alt="Author Brian Atkins signing books while sitting on a couch.">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5>Fifth Annual Meet-The-Author Event</h5>
+                            <p>Come visit with Liam Sedgwick this afternoon for the book-signing and release of Firefly.</p>
                         </div>  
                     </div>  
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
                 </a>
-              </div>
-              <div class="col-lg-1">
+            </div>
+            <div class="col-lg-1">
 
-              </div>
+            </div>
         </div>
 
 
+</div>
 
+    <script src="js/pageToggle.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
