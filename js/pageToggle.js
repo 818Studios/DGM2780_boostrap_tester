@@ -1,14 +1,18 @@
 //Used to toggle between different pages on the website using bootstrap visibility
 
-var homePage = document.querySelector('.Home');
-var homeLink = document.querySelector('.home');
-function toggleHomePage(){
-    if(homePage.className === "active"){
-        document.querySelector('.Home')
+function toggleHome(){
+    document.querySelector('#homePage').classList.toggle("d-none");
 
-    }else{
-        homePage.toggleAttribute.className("invisible");
-    }
-}
+    document.querySelector('#homePage').classList.toggle("d-none");
 
-homeLink.onclick = toggleHomePage();
+    document.querySelector('#homePage').classList.toggle("d-none");
+
+    document.querySelector('#homePage').classList.toggle("d-none");
+
+    document.querySelector('#homePage').classList.toggle("d-none");
+
+    document.querySelector('#homePage').classList.toggle("d-none");
+} //end function
+
+const HOMEPAGE= document.querySelector('#homeLink');
+HOMEPAGE.onclick = toggleHome;
