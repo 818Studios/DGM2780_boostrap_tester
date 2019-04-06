@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Cozy Corner</title>
   </head>
-  <body>
+  <body class="bg-info">
     <header>
 
     </header>
@@ -24,13 +24,13 @@
                 <a class="nav-link h5  " href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h5 disabled" href="#">Shop</a>
+                <a class="nav-link h5" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link h5 disabled" href="#">Author's Corner</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h5" href="cafe.html">Caf&eacute;</a>
+                <a class="nav-link h5 disabled" href="#">Caf&eacute;</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link h5 disabled" href="#">About</a>
@@ -52,126 +52,176 @@
         </div>
     </div>
         <img src="images/bookstore_float.jpg" alt="A book floats in a bookstore." class="img-fluid height: 50%" /> <!-- Image placed here to follow the 'no gutter' utility in bootstrap 4.3 -->
-    <div class="container-fluid">
+    <div class="container-fluid">   
         <div class="row bg-info">
-            <div class="container-fluid col-12 bg-light">
-                <blockquote class="blockquote my-5 mx-5">
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
-                </blockquote>
-            </div>
-        </div>
+            <blockquote class="blockquote my-5 mx-5">
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </blockquote>
     </div>
+    <div class="row bg-light">
+            <h2 class="h2 col-12 text-center my-5">
+                Upcoming Events
+            </h2>
+            <div class=" col-0 col-lg-1">
 
-
-        <div class="container-fluid">
-            <div class="row">
-    
-                <h2 class="h2 col-12 text-center my-5">
-                    Upcoming Events
-                </h2>
-                <div class=" col-0 col-lg-1">
-    
-                </div>    
-                <div id="carouselExampleIndicators" class="carousel slide col-12 col-lg-10" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                                <!-- Photo by Aung Soe Min on Unsplash -->
-                            <img src="images/valentines_day.jpg" class="d-block w-100" alt="Book with pages bent in the shape of a heart.">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Valentine's Day Special</h5>
-                                <p>Find the right book for your special someone!</p>
-                            </div>  
-                        </div>
-                        <div class="carousel-item">
-                                <!-- Photo by Ben White on Unsplash -->
-                            <img src="images/book_tour.jpg" class="d-block w-100" alt="Man reading book on chair outside in tall grass.">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Book Tour - Genoa</h5>
-                                <p>Visit Scott James' forest cabin, from best-seller: Live Fire, in Genoa!</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                                <!-- Photo by Austin Distel on Unsplash -->
-                            <img src="images/meet_the_author.jpg" class="d-block w-100" alt="Author Brian Atkins signing books while sitting on a couch.">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Fifth Annual Meet-The-Author Event</h5>
-                                <p>Come visit with Liam Sedgwick this afternoon for the book-signing and release of Firefly.</p>
-                            </div>  
+            </div>    
+            <div id="carouselExampleIndicators" class="carousel slide col-12 col-lg-10" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <!-- Photo by Aung Soe Min on Unsplash -->
+                        <img src="images/valentines_day.jpg" class="d-block w-100" alt="Book with pages bent in the shape of a heart.">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Valentine's Day Special</h5>
+                            <p>Find the right book for your special someone!</p>
                         </div>  
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <div class=" col-0 col-lg-1">
-    
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row bg-info">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10 h2 text-center my-5">
-                    
-                    <h2 class="h2"><span class="text-info font-weight-bold">New</span> Children's Corner Planning Open House</h2>
-                    <p class="lead">Come join us at the community forum for the new plans!</p>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-            <div class="row my-4">
-                <div class="col-lg-1">
-    
-                </div>
-                <div class="col-lg-5">
-
-                </div>
-                <div class="col-lg-5">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item ">
-                            <i class="fas fa-child text-info fa-5x"></i>
-                            <h4 class="h4">Larger Toy Space</h4>
-                            <h3 class="text-info"></h3>
-                          </div>
-                          <div class="carousel-item active">
-                            <i class="fas fa-child text-info fa-5x"></i>
-                            <h4 class="h4">Larger Toy Space</h4>
-                            <h3 class="text-info"></h3>
-                          </div>
-                          <div class="carousel-item">
-                            <i class="fas fa-child text-info fa-5x"></i>
-                            <h4 class="h4">Larger Toy Space</h4>
-                            <h3 class="text-info"></h3>
-                          </div>
+                    <div class="carousel-item">
+                            <!-- Photo by Ben White on Unsplash -->
+                        <img src="images/book_tour.jpg" class="d-block w-100" alt="Man reading book on chair outside in tall grass.">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Book Tour - Genoa</h5>
+                            <p>Visit Scott James' forest cabin, from best-seller: Live Fire, in Genoa!</p>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
+                    </div>
+                    <div class="carousel-item">
+                            <!-- Photo by Austin Distel on Unsplash -->
+                        <img src="images/meet_the_author.jpg" class="d-block w-100" alt="Author Brian Atkins signing books while sitting on a couch.">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fifth Annual Meet-The-Author Event</h5>
+                            <p>Come visit with Liam Sedgwick this afternoon for the book-signing and release of Firefly.</p>
+                        </div>  
+                    </div>  
                 </div>
-                <div class="col-lg-1">
-    
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class=" col-0 col-lg-1">
+
+            </div>
+        </div>
+
+
+        <div class="row bg-light">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 h2 text-center my-5">
+                
+                <h2 class="h2"><span class="text-info font-weight-bold">New</span> Children's Corner Planning Open House</h2>
+                <p class="lead">Come join us at the community forum for the new plans!</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row my-4 py-5">
+            <div class="col-lg-1">
+
+            </div>
+            <div class="col-lg-5">
+                <img src="images/chart-pie-solid.svg" alt="Pie Chart" class="img-fluid rounded mx-5" style="width: 100% \9;">
+            </div>
+            <div class="col-lg-5">
+                <div id="carouselExampleControls" class="carousel slide bg-transparent py-5 h-100 d-flex align-items-center" data-ride="carousel">
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item">
+                        <i class="fas fa-book-reader text-dark fa-5x"></i>
+                        <h4 class="h4">Book Reading Every Hour</h4>
+                        <p class=" lead text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="carousel-item active">
+                        <i class="fab fa-fort-awesome text-dark fa-5x"></i>
+                        <h4 class="h4">Reading Kingdom</h4>
+                        <p class=" lead text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="carousel-item">
+                        <i class="fas fa-gamepad text-dark fa-5x"></i>
+                        <h4 class="h4">Larger Toy Space</h4>
+                        <p class="lead px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+            </div>
+            <div class="col-lg-1">
+
+            </div>
+        </div>
+        <div class="row bg-white">
+            <div class="col-12 bg-danger text-light">
+                <h2 class="h2 my-5 text-center">Thank You To Our Sponsors</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-lg-6 bg-info text-light">
+                <div class="row border border-white">
+                    <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-amazon font-weight-bold mx-2"></i>Amazon Kindle </h3>
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-bandcamp font-weight-bold mx-2"></i>Bandcamp </h3>
+                    </div>
+                    <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-adobe font-weight-bold mx-2"></i>Adobe </h3>
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-microsoft font-weight-bold mx-2"></i>Microsoft </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 bg-info">
+                <div class="row border border-white">
+                        <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                                <h3 class="h3 font-weight-bold my-3"><i class="fab fa-medium-m font-weight-bold mx-2"></i>Medium </h3>
+                                <h3 class="h3 font-weight-bold my-3"><i class="fab fa-paypal font-weight-bold mx-2"></i>Paypal </h3>
+                        </div>
+                        <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                                <h3 class="h3 font-weight-bold my-3"><i class="fab fa-patreon font-weight-bold mx-2"></i>Patreon </h3>
+                                <h3 class="h3 font-weight-bold my-3"><i class="fab fa-kickstarter-k font-weight-bold mx-2"></i>Kickstarter </h3>
+                        </div>
+                    </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-lg-6 bg-info">
+                <div class="row border border-white">
+                    <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-apple font-weight-bold mx-2"></i>Apple </h3>
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-btc font-weight-bold mx-2"></i>Bitcoin </h3>
+                    </div>
+                    <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-deviantart font-weight-bold mx-2"></i>Deviant Art </h3>
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-dribbble font-weight-bold mx-2"></i>Dribbble </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 bg-info">
+                <div class="row border border-white">
+                    <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-avianex font-weight-bold mx-2"></i>avianex </h3>
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-ello font-weight-bold mx-2"></i>Ello </h3>
+                    </div>
+                    <div class="col-12 col-lg-6 bg-info text-light d-flex flex-column justify-content-around align-items-stretch">
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-github font-weight-bold mx-2"></i>Github </h3>
+                            <h3 class="h3 font-weight-bold my-3"><i class="fab fa-invision font-weight-bold mx-2"></i>Invision </h3>
+                    </div>
                 </div>
             </div>
         </div>
 
+
+    </div>  <!-- end container -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
