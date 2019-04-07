@@ -42,6 +42,21 @@
     </div>
 </nav>
 <div class="container-fluid bg-info">
+  <div class="row">
+    <div class="col">
+        <div class="alert alert-success alert-dismissable fade show" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="alert-heading">Well done!</h4>
+          
+          <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+          <hr>
+          <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+
+        </div>
+    </div>
+  </div>
     <div class="row bg-secondary">
         <div class="col-12 jumbotron">
             <h2 class="h2">Shop Cozy Corner</h2>
@@ -57,7 +72,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Embrace Spring</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi placeat veniam dolore.</p>
-                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <a href="#" class="btn btn-primary"data-toggle="btn" >Add to Cart</a>
                 </div>
               </div>     
         </div>
@@ -65,7 +80,7 @@
             <div class="card" style="width: 100%;">
                 <!-- Photo by Baher Khairy on Unsplash -->
                 <img src="images/photography.jpg" class="card-img-top" alt="Glasses, cigarettes and a camera surround a photography book.">
-                <div class="card-body">
+                <div class="card-body"> 
                   <h5 class="card-title">Photography Lessons</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi placeat veniam dolore.</p>
                   <a href="#" class="btn btn-primary">Add to Cart</a>
@@ -142,13 +157,13 @@
     </div> <!--end row-->
 </div> <!--end container-->
 <div class="row">
-  <div class="card bg-dark text-dark text-center">
+  <div class="card bg-dark text-white text-center">
       <!-- Photo by Nick Fewings on Unsplash -->
       <img src="images/store_bookshelf.jpg" class="card-img" alt="Books on a Bookshelf">
-      <div class="card-img-overlay">
-        <h5 class="card-title display-1 text mt-5">Spring Off Fantasy Fiction Sale</h5>
-        <p class="card-text h5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officiis excepturi blanditiis iusto nulla, voluptatibus voluptatem aperiam tenetur, eum dolorem adipisci.</p>
-        <a class="btn btn-dark my-4" href="contact.html" role="button">Map</a>
+      <div class="card-img-overlay d-flex flex-column justify-content-center">
+        <h5 class="card-title h3 ">Spring Off Fantasy Fiction Sale</h5>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <a class="btn btn-success my-4 align-self-center" href="contact.html" role="button">Map</a>
       </div>
     </div>
 </div>
